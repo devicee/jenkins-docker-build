@@ -28,4 +28,6 @@ node {
        def app = docker.build("refikh/docker-nodejs-demo:${commit_id}", '.').push()
      }                                     
    }                                       
-}                                          
+} 
+
+// just a comment                                         
